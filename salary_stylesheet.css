@@ -1,0 +1,18 @@
+/* This is the CSS-Stylesheet that formats the index.aspx page */
+
+body 	
+
+{
+	     color: black;
+	     background-color: blue;
+	     font-size:14pt;
+	     font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;  
+		 text-align: center;
+	}
+
+div 	{  background-color:white; text-align: center; border:7px solid black; width: 520px; padding: 10px; 
+				margin-right:0px; margin-left:10px; float:center; margin: 0 auto;	}
+		
+
+#Welcome_header {font-size: 28pt; }
+
