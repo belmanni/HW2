@@ -11,19 +11,23 @@
     <div>
     
         Total hours worked this week:<br />
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="HoursTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
         Hourly wage:<br />
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="WageTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
         Pre-Tax deductions:<br />
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        <asp:TextBox ID="PreTaxTextBox" runat="server"></asp:TextBox>
         %<br />
         <br />
         After-Tax deductions:<br />
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        <asp:TextBox ID="AfterTaxTextBox" runat="server"></asp:TextBox>
+        %<br />
+        <br />
+        <br />
+        <asp:Label ID="ResultLabel" runat="server" BackColor="#CCCCCC"></asp:Label>
         <br />
         <br />
         <asp:Button ID="CalculateButton" runat="server" Text="Calculate!" 
